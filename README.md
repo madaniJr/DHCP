@@ -18,21 +18,7 @@ docker logs -f dhcp-server
 
 ## Testez avec un client DHCP (ex : un PC connecté au réseau) pour voir s'il obtient une adresse IP.
 
-## 🚀 Bonus : Utiliser Docker Compose
 
-Créez un fichier docker-compose.yml :
-
-version: '3'
-services:
-  dhcp:
-    image: my-dhcp-server
-    build: .
-    network_mode: "host"
-    restart: unless-stopped
-
-Puis démarrez-le :
-
-docker-compose up -d
 
 
 
