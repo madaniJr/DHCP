@@ -1,8 +1,8 @@
-Construire et Lancer le Conteneur
+## Construire et Lancer le Conteneur
 
 👐 Construire l'image Docker :
 
-docker build -t my-dhcp-server .
+## docker build -t my-dhcp-server .
 
 👐 Lancer le conteneur :
 
@@ -12,13 +12,13 @@ docker run --net=host --name dhcp-server -d my-dhcp-server
 
 5️⃣ Vérifier le Bon Fonctionnement
 
-Vérifiez les logs du conteneur :
+## Vérifiez les logs du conteneur :
 
 docker logs -f dhcp-server
 
-Testez avec un client DHCP (ex : un PC connecté au réseau) pour voir s'il obtient une adresse IP.
+## Testez avec un client DHCP (ex : un PC connecté au réseau) pour voir s'il obtient une adresse IP.
 
-🚀 Bonus : Utiliser Docker Compose
+## 🚀 Bonus : Utiliser Docker Compose
 
 Créez un fichier docker-compose.yml :
 
