@@ -2,11 +2,11 @@
 
 👐 Construire l'image Docker :
 
-## docker build -t my-dhcp-server .
+# docker build -t my-dhcp-server .
 
 👐 Lancer le conteneur :
 
-docker run --net=host --name dhcp-server -d my-dhcp-server
+# docker run --net=host --name dhcp-server -d my-dhcp-server
 
 ⚠️ Important : L'option --net=host est nécessaire car DHCP fonctionne au niveau bas de réseau.
 
