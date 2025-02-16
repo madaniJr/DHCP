@@ -16,7 +16,7 @@ docker run --net=host --name dhcp-server -d my-dhcp-server
 
 docker logs -f dhcp-server
 
-## Testez avec un client DHCP (ex : un PC connecté au réseau) pour voir s'il obtient une adresse IP.
+Testez avec un client DHCP (ex : un PC connecté au réseau) pour voir s'il obtient une adresse IP.
 
 
 
